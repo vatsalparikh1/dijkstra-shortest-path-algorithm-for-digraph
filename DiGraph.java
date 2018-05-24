@@ -4,8 +4,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class DiGraph implements DiGraph_Interface {
 
-  // in here go all your data and methods for the graph
-  // and the topo sort operation
+
   ConcurrentHashMap <String, Vertex> vertices;
   HashSet <Long> edge_id;
   HashSet <Long> vertex_id;
@@ -14,17 +13,10 @@ public class DiGraph implements DiGraph_Interface {
 	
 	
 
-  public DiGraph ( ) { // default constructor
-    // explicitly include this
-    // we need to have the default constructor
-    // if you then write others, this one will still be there
-	  
+  public DiGraph ( ) { 
 	  vertices = new ConcurrentHashMap<String, Vertex>();
 	  edge_id = new HashSet<Long>();
 	  vertex_id = new HashSet<Long>();
-	  
-	  
-	  
 	  
   }
 
