@@ -4,15 +4,7 @@ public class DiGraphPlayground {
 
   public static void main (String[] args) {
   
-      // thorough testing is your responsibility
-      //
-      // you may wish to create methods like 
-      //    -- print
-      //    -- sort
-      //    -- random fill
-      //    -- etc.
-      // in order to convince yourself your code is producing
-      // the correct behavior
+      
     exTest();
     }
   
