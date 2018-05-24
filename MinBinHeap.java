@@ -11,7 +11,7 @@ public class MinBinHeap{
         array[0] = new EntryPair(null, -100000);
     }
     
-    //Please do not remove or modify this method! Used to test your entire Heap.
+
 	public EntryPair[] getHeap() {
 		return this.array;
 	}
